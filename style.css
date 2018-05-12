@@ -14,15 +14,22 @@ body {
 }
 
 .the-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     flex: 1;
     background-color: lightcyan;
 }
 
 .the-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     flex: 1;
     background-color: lightcyan;
+    margin-top: 10px;
 }
 
 .mid-row {
@@ -40,7 +47,7 @@ body {
     color: lightcyan;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    margin: 35px 15px 0px 15px;
 }
 
 .the-headers,
@@ -48,6 +55,13 @@ body {
     background-color: lightcyan;
     color: grey;
     flex: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 2px;
+}
+
+.the-headers {
+    margin-top: 30px;
 }
 
 .the-section,
@@ -57,11 +71,20 @@ body {
     width: 100%;
 }
 
+.the-aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .the-section + .the-aside {
     margin-left: 20px;
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     flex: 1;
     background-color: lightcyan;
